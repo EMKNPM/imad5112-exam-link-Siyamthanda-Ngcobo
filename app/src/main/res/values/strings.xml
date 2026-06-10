@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">IMAD</string>
     <string name="campsite_commander">Campsite Commander</string>
+    <string name="item_name">Item name</string>
+    <string name="category">Category</string>
+    <string name="enter_the_quantity">Enter the quantity</string>
+    <string name="enter_comments">Enter comments</string>
+    <string name="add_gear">Add gear</string>
+    <string name="welcome_to_campsite_commander_enter_the_following">Welcome to Campsite Commander, enter the following:</string>
+    <string name="display_the_total_items_packed">Display the total items packed</string>
 </resources>
