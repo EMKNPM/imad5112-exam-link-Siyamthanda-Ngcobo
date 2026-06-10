@@ -19,14 +19,24 @@ class AddGear : AppCompatActivity() {
     private lateinit var edtComments : EditText
     private lateinit var edtQuantity : EditText
     private lateinit var edtCategory : EditText
-    private lateinit var edtItemName : EditText
+    private lateinit var edtItem: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_add_gear)
 
-        //
+        //Typecasting
+
+        btnAddGear = findViewById(R.id.btnAddGear)
+        tvTitle = findViewById(R.id.tvTitle)
+        tvTotalItemsPacked = findViewById(R.id.tvTotalItemsPacked)
+        edtCategory = findViewById(R.id.edtCategory)
+        edtComments = findViewById(R.id.edtComments)
+        edtQuantity = findViewById(R.id.edtQuantity)
+        edtItem = findViewById(R.id.edtItem)
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
