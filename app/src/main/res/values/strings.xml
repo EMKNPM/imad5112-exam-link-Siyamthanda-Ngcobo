@@ -8,4 +8,10 @@
     <string name="add_gear">Add gear</string>
     <string name="welcome_to_campsite_commander_enter_the_following">Welcome to Campsite Commander, enter the following:</string>
     <string name="display_the_total_items_packed">Display the total items packed</string>
+    <string name="view_gear">View Gear</string>
+    <string name="total_items_will_be_displayed_here_app_layout_constraintbottom_tobottomof">Total items will be displayed here app:layout_constraintBottom_toBottomOf=</string>
+    <string name="total_items_will_be_displayed_here">Total items will be displayed here</string>
+    <string name="the_total_items_packed_will_be_displayed_here">The total items packed will be displayed here</string>
+    <string name="back">Back</string>
+    <string name="list">List</string>
 </resources>

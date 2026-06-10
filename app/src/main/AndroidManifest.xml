@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IMAD">
         <activity
+            android:name=".Gears"
+            android:exported="false" />
+        <activity
+            android:name=".DetailedView"
+            android:exported="false" />
+        <activity
             android:name=".AddGear"
             android:exported="false" />
         <activity
